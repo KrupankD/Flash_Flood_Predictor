@@ -1,0 +1,46 @@
+{
+  "Logistic Regression": {
+    "model": "Logistic Regression",
+    "n_events": 77,
+    "n_flood": 32,
+    "cv": "5-fold stratified, repeated 10 times",
+    "accuracy": 0.8065000000000001,
+    "accuracy_std": 0.09375707380720076,
+    "precision": 0.7465128760128761,
+    "precision_std": 0.12076174012583266,
+    "recall": 0.8490476190476192,
+    "recall_std": 0.13482246662062275,
+    "f1": 0.7853921321196862,
+    "f1_std": 0.10047496633938115,
+    "roc_auc": 0.8848148148148148,
+    "roc_auc_std": 0.08352285495208914,
+    "confusion": {
+      "tn": 35,
+      "fp": 10,
+      "fn": 7,
+      "tp": 25
+    }
+  },
+  "Random Forest": {
+    "model": "Random Forest",
+    "n_events": 77,
+    "n_flood": 32,
+    "cv": "5-fold stratified, repeated 10 times",
+    "accuracy": 0.796,
+    "accuracy_std": 0.09019254095791096,
+    "precision": 0.7518210678210677,
+    "precision_std": 0.12835609228399056,
+    "recall": 0.7961904761904763,
+    "recall_std": 0.16219581681781217,
+    "f1": 0.7607451176274705,
+    "f1_std": 0.11171756901615527,
+    "roc_auc": 0.8583068783068784,
+    "roc_auc_std": 0.08641875246874191,
+    "confusion": {
+      "tn": 33,
+      "fp": 12,
+      "fn": 4,
+      "tp": 28
+    }
+  }
+}
